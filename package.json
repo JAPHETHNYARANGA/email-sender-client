@@ -2,6 +2,7 @@
   "name": "email-sender-client",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,12 @@
     "url": "https://github.com/JAPHETHNYARANGA/email-sender-client/issues"
   },
   "homepage": "https://github.com/JAPHETHNYARANGA/email-sender-client#readme",
-  "description": ""
+  "description": "This is an application that sends emails from a contact us page",
+  "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "pg": "^8.13.1",
+    "prisma": "^6.2.1"
+  }
 }
