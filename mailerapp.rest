@@ -1,0 +1,11 @@
+POST  http://localhost:5003/api/sendMail
+Content-Type: application/json
+
+
+{
+    "fullname":"john doe",
+    "email":"password",
+    "service":"test service",
+    "message":"hello sir"
+}
+
